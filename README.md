@@ -7,7 +7,7 @@
 
 ### Objetivo del Lab
 
-Construir un pipeline MLOps completo usando **MLflow** en un entorno **completamente dockerizado** sobre Compute Engine (8 GB RAM) que incluya:
+Construir un pipeline MLOps completo usando **MLflow** en un entorno **completamente dockerizado** sobre Compute Engine (4 GB - 8 GB RAM) que incluya:
 
 - ✅ MLflow Tracking Server con GUI en **puerto 80** (Nginx reverse proxy)
 - ✅ PostgreSQL dockerizado como backend store
