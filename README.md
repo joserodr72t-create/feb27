@@ -229,7 +229,7 @@ ENTRYPOINT ["/entrypoint.sh"]
 EOF
 ```
 
-**Optimización para 8 GB**:
+**Optimización para 4 GB**:
 - `python:3.11-slim`: Imagen base ~150 MB vs ~900 MB de la completa
 - `--no-cache-dir` en pip: No almacena cache de paquetes, ahorra ~200 MB
 - `--workers 2 --worker-class gthread --threads 2`: 2 workers con 2 threads cada uno = 4 requests concurrentes, consumo ~300 MB total
